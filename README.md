@@ -1,7 +1,6 @@
 # Packen und Routen: reicht die Fläche als Kapazität? – Streamlit-Demo
 
-<!-- Live-Link folgt nach dem Deploy: direkt hierher setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-packrouten-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-packrouten-demo.streamlit.app/)**
 
 Fall-Demo für die Website „Sebastian Hanisch – Operations Research und Machine Learning“ (`demos.html`, Gruppe „Transport & Tourenplanung“). Ein Fahrzeug fasst nicht „Mengen“, sondern **Teile mit Maßen**. Die Demo fragt: **Wann genügt es, die Fläche der Teile zu addieren, und was kostet es, wenn die Teile wirklich in die Ladefläche passen müssen?** (eine **vereinfachte Fassung** des CVRP mit zweidimensionaler Packung, kurz 2L-CVRP). Sie zeigt eine Instanz live (Flächenlösung und Packbarkeit je Tour; Reparatur und Faustregel bei 20 Kunden sofort, bei 40 Kunden auf Knopfdruck; die Suche für die Instanzen der Messreihe und die Presets gespeichert, bei 20 Kunden auch live mit kleinem Budget) und stützt jede Aussage auf **vorgerechnete Messreihen** über Zufallsinstanzen, ohne und mit **Drehung der Rechtecke um 90°**.
 
